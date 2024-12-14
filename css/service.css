@@ -1,0 +1,36 @@
+.route,.contuct{
+    width: 500px;
+    height: 320px;
+    background-color: aliceblue;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+.contuct{
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    height: 200px;
+}
+.contuct h1{
+    margin: 10px;
+    color: #0FA87F;
+}
+.contuct p{
+    margin-left: 10px;
+}
+.route h2{
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+}
+.route p{
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
+footer{
+    margin-top: 20px;
+}

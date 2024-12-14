@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../image/bus.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+.container{
+    width: 500px;
+    height: 380px;
+    margin: auto ;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: transparent;
+    z-index: 999;
+    /* background-color: #f0f2f5; */
+}
+#email,#password{
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #f0f2f5;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    background-color: green;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+#error-message {
+   
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+

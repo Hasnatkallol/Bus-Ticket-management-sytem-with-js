@@ -1,0 +1,26 @@
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:disabled {
+    background-color: red;
+    cursor: not-allowed;
+  }
+  .selected {
+    background-color: green !important;
+  }
+
+.primary{
+  width: 300px;
+  height: 120px ;
+  border: 1px solid red;
+  overflow-y: scroll;
+}
+
+
+
+
+
+

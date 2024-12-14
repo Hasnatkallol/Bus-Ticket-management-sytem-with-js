@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+<body>
+    <!-- Start HEader part -->
+ <div class="header-primary">
+  <div class="header" style="margin-bottom: 0px;">
+    <div class="logo-details">
+        <div class="img">
+            <img src="./image/bus-logo.jpg" alt="">
+        </div>
+        <div class="details">
+            <h1>Hasnat Travels</h1>
+        </div>
+    </div>
+    <div class="navigation">
+        <i class="fa-solid fa-bars menu" id="menu"></i>
+     <div class="nav" id="nav">
+        <button class="active"><a href="home.html">Home</a></button>
+        <button><a href="service.html">Service</a></button>
+        <button><a href="contuct.html">Contuct Us</a></button>
+     </div>
+    </div>
+  </div>
+ </div>
+
+
+  <!-- OWL carousel -->
+  <div class="owl-carousel">
+    <div class="item"><img src="./image/home-slider2.jpg" alt="Image 2"></div>
+    <div class="item"><img src="./image/home-slider3.jpg" alt="Image 3"></div>
+    <div class="item"><img src="./image/home-slider4.jpg" alt="Image 4"></div>
+  </div>
+
+  <!-- from_To part -->
+  <form id="bookingForm">
+    <div class="form-group">
+        <label for="from">LEAVING FROM</label></br>
+        <!-- <input type="text" id="from" placeholder="Select city" required> -->
+      
+        <select name="from" id="from">
+          <option value="">Select City</option>
+          <option value="Dhaka">Dhaka</option>
+          <option value="Chittagong">Chittagong</option>
+          <option value="CoxsBazar">CoxsBazar</option>
+          <option value="Sylhet">Sylhet</option>
+          <option value="Dinajpur">Dinajpur</option>
+          <option value="Bandorbon">Bandorbon</option>
+          <option value="Khulna">Khulna</option>
+          <option value="Jamalpur">Jamalpur</option>
+          <option value="Barishal">Barishal</option>
+          <option value="Teknaf">Teknaf</option>
+        </select>
+
+    </div>
+    <div class="form-group">
+        <label for="to">GOING TO</label></br>
+        <select name="to" id="to">
+          <option value="">Select City</option>
+          <option value="Dhaka">Dhaka</option>
+          <option value="Chittagong">Chittagong</option>
+          <option value="CoxsBazar">CoxsBazar</option>
+          <option value="Sylhet">Sylhet</option>
+          <option value="Dinajpur">Dinajpur</option>
+          <option value="Bandorbon">Bandorbon</option>
+          <option value="Khulna">Khulna</option>
+          <option value="Jamalpur">Jamalpur</option>
+          <option value="Barishal">Barishal</option>
+          <option value="Teknaf">Teknaf</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="date">Deparating date</label></br>
+        <input type="date" id="date" required>
+    </div>
+    <button type="submit" class="search-now">Search Now</button>
+</form>
+<!-- FOR aviaulable BUS VISIBLE  -->
+ <div id="availableBus" class="hidden">
+      <h1>Available Bus</h1>
+      <ul id="busList"></ul>
+ </div>
+ <!-- Company Details -->
+  <div class="company-details">
+    <h1 style="margin-bottom: 20px;color:#3e9f6e;">Wecome To Hasnat Travels</h1>
+    <p>Hasnat Travels is apparently a family owned transport company specializing in transportation of passenger bus services since 1990. From a humble beginning of local services, our transport system encompasses all reachable areas of Bangladesh and also beyond the border, extending our reach to Kolkata in India.</p>
+
+     <p> We worked hard and honest, we put our vision forward and explored ways and means to continuously improve passenger comfort, and as a result, we were able to introduce the 1st ever Air- Conditioned bus services in Bangladesh. We take pride in mentioning that our fleet of buses includes the most luxurious models of VOLVO and SCANIA Imported from Europe, which provide the ultimate in passenger comfort and safety.</p>
+      
+      <p> company at present operates more then 60 (Sixty) buses on schedule routes employing over 200 trained staff and safely transporting over a million passengers a year</p>
+  </div>
+<!-- Footer part -->
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="container">
+      <div class="footer-row">
+          <!-- About Section -->
+          <div class="footer-col">
+              <h4>About Us</h4>
+              <p>Hasnat Travels has been providing safe and comfortable travel services since 1990, connecting major cities in Bangladesh and beyond.</p>
+          </div>
+          <!-- Quick Links -->
+          <div class="footer-col">
+              <h4>Quick Links</h4>
+              <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="service.html">Services</a></li>
+                  <li><a href="contuct.html">Contact Us</a></li>
+              </ul>
+          </div>
+          <!-- Contact Section -->
+          <div class="footer-col">
+              <h4>Contact Us</h4>
+              <ul>
+                  <li><i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh</li>
+                  <li><i class="fa-solid fa-phone"></i> +880-123-456-789</li>
+                  <li><i class="fa-solid fa-envelope"></i> info@hasnattravels.com</li>
+              </ul>
+          </div>
+          <!-- Social Media Links -->
+          <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+          </div>
+      </div>
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+          <p>&copy; 2024 Hasnat Travels. All Rights Reserved.</p>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+  <script src="./js/home.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: true,
+        autoplay:true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      });
+    });
+    </script>
+</body>
+</html>
