@@ -1,6 +1,6 @@
 // Valid password and emlail
 const validEmail = "hk@gmail.com";
-const validPassword = "12345";
+const validPassword = "123456";
 
 
 document.getElementById('loginForm').addEventListener('submit',function(e) {
